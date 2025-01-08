@@ -67,7 +67,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             <?php endforeach; ?>
         </select>
         <div class="invalid-feedback">
-            Please select a client.
+            Please select a client
         </div>
     </div>
     <button type="submit" class="btn btn-primary">Update</button>
